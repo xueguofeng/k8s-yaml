@@ -46,7 +46,7 @@ spec:
         - name: vpro-db-data
           nfs:
             path: /mnt/k8sdb
-            server: 192.168.68.180
+            server: 192.168.70.170
 
       initContainers:
         - name: busybox
